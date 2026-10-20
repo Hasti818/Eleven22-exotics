@@ -3,6 +3,11 @@
 A full-stack luxury and supercar rental platform built with Java Spring Boot, PostgreSQL and vanilla JavaScript. Customers can browse vehicles, check availability and request rentals, while administrators manage the fleet, pricing, images and bookings.
 
 > **Disclaimer:** Eleven22 Exotics is a fictional portfolio project. It does not process real payments and is not affiliated with any vehicle manufacturer. All prices are demonstration data.
+>## Live demo
+
+[Open Eleven22 Exotics](https://hasti818.github.io/Eleven22-exotics/)
+
+Use the demonstration accounts below to explore the customer and administrator features.
 
 ## About the name
 
@@ -125,8 +130,14 @@ A dedicated demonstration administrator account is available for exploring the a
 
 - **Email:** `admin@eleven22.dk`
 - **Password:** `admin1234@`
-
 The administrator account can be used to test vehicle management, pricing, images and booking-status features.
+
+### Customer
+
+- **Email:** `demo@eleven22.dk`
+- **Password:** `demo123`
+
+The customer account can be used to browse vehicles, request rentals, view booking history and cancel eligible bookings.
 
 > These credentials are for demonstration purposes only. Do not use them for another account or connect them to personal information. The demo should use a separate or resettable database.
 
