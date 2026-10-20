@@ -36,7 +36,7 @@ function estimate(car, start, end) {
 async function seed() {
   const cars = ROWS.map((r, i) => ({ id: i + 1, slug: r[0], brand: r[1], model: r[2], year: r[3], category: r[4], hp: r[5], transmission: r[6], daily: r[7], monthly: r[8], engine: r[9], drivetrain: r[10], fuel: r[11], seats: r[12], zero: r[13], top: r[14], status: 'ACTIVE' }));
   const users = [
-    { id: 1, firstName: 'Admin', lastName: 'Eleven22', email: 'admin@eleven22.dk', phone: '', role: 'ADMIN', hash: await sha('admin1234@'), createdAt: today() },
+    { id: 1, firstName: 'Admin', lastName: 'Eleven22', email: 'admin@eleven22.dk', phone: '', role: 'ADMIN', hash: await sha('admin123'), createdAt: today() },
     { id: 2, firstName: 'Demo', lastName: 'Customer', email: 'demo@eleven22.dk', phone: '', role: 'CUSTOMER', hash: await sha('demo123'), createdAt: today() },
   ];
   const t = today();
