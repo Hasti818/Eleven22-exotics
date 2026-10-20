@@ -136,7 +136,7 @@ The administrator account can be used to test vehicle management, pricing, image
 
 Install the following software before running the project:
 
-- Java 17
+- Java 25
 - Maven
 - PostgreSQL
 - Python 3 or another static-file server
