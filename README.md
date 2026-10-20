@@ -584,7 +584,7 @@ frontend/assets/images/<vehicle-slug>.webp
 The creator, source, original URL and licence for every photograph should be recorded in IMAGE_CREDITS.md.
 
 Vehicle names, logos and trademarks belong to their respective owners. Their inclusion does not imply sponsorship or affiliation.
-Possible future improvements
+## Possible future improvements
 - Online payment integration
 - Email booking confirmations
 - Customer favourites
