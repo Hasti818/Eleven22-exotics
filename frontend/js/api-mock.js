@@ -1,7 +1,7 @@
 // Offline demo backend (localStorage) with the same interface as api.js and the same booking rules.
 // Used for the hosted preview. The real app uses api.js, which calls the Spring Boot API.
 (() => {
-const KEY = 'e22_db_v2';
+const KEY = 'e22_db_v3';
 const iso = d => d.toISOString().slice(0, 10);
 const today = () => iso(new Date());
 const addDays = (s, n) => { const d = new Date(s + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return iso(d); };
