@@ -129,7 +129,7 @@ A dedicated demonstration administrator account is available for exploring the a
 ### Administrator
 
 - **Email:** `admin@eleven22.dk`
-- **Password:** `admin1234@`
+- **Password:** `admin123`
 The administrator account can be used to test vehicle management, pricing, images and booking-status features.
 
 ### Customer
